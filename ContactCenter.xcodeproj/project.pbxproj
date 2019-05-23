@@ -8,8 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		03288E31607975E7F20DB916 /* Pods_ContactCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A754F8022B7032AAA209961 /* Pods_ContactCenter.framework */; };
+		121B1AE82295A9D600E95713 /* UserSelectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 121B1AE72295A9D600E95713 /* UserSelectionViewController.m */; };
+		121B1AEE2295B87700E95713 /* ApiClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 121B1AED2295B87700E95713 /* ApiClient.m */; };
+		121B1AF12295B8C000E95713 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 121B1AF02295B8C000E95713 /* MainViewController.m */; };
+		121B1AF42295B9A200E95713 /* NexmoUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 121B1AF32295B9A200E95713 /* NexmoUser.m */; };
 		12638034228335ED008DAD7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12638033228335ED008DAD7D /* AppDelegate.m */; };
-		12638037228335ED008DAD7D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12638036228335ED008DAD7D /* ViewController.m */; };
 		1263803A228335ED008DAD7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12638038228335ED008DAD7D /* Main.storyboard */; };
 		1263803C228335EE008DAD7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1263803B228335EE008DAD7D /* Assets.xcassets */; };
 		1263803F228335EE008DAD7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1263803D228335EE008DAD7D /* LaunchScreen.storyboard */; };
@@ -17,16 +20,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		121B1AE62295A9D600E95713 /* UserSelectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserSelectionViewController.h; sourceTree = "<group>"; };
+		121B1AE72295A9D600E95713 /* UserSelectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserSelectionViewController.m; sourceTree = "<group>"; };
+		121B1AEC2295B87700E95713 /* ApiClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApiClient.h; sourceTree = "<group>"; };
+		121B1AED2295B87700E95713 /* ApiClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApiClient.m; sourceTree = "<group>"; };
+		121B1AEF2295B8C000E95713 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		121B1AF02295B8C000E95713 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		121B1AF22295B9A200E95713 /* NexmoUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NexmoUser.h; sourceTree = "<group>"; };
+		121B1AF32295B9A200E95713 /* NexmoUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NexmoUser.m; sourceTree = "<group>"; };
 		1263802F228335ED008DAD7D /* ContactCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		12638032228335ED008DAD7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		12638033228335ED008DAD7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		12638035228335ED008DAD7D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		12638036228335ED008DAD7D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		12638039228335ED008DAD7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1263803B228335EE008DAD7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1263803E228335EE008DAD7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		12638040228335EE008DAD7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		12638041228335EE008DAD7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1263804822833ADF008DAD7D /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
 		4AFEDFDA4730D59D1C9ADA49 /* Pods-ContactCenter.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactCenter.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ContactCenter/Pods-ContactCenter.debug.xcconfig"; sourceTree = "<group>"; };
 		99AA189A116C39B40D4FC18B /* Pods-ContactCenter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ContactCenter.release.xcconfig"; path = "Pods/Target Support Files/Pods-ContactCenter/Pods-ContactCenter.release.xcconfig"; sourceTree = "<group>"; };
 		9A754F8022B7032AAA209961 /* Pods_ContactCenter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ContactCenter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -53,6 +63,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		121B1AE92295B83600E95713 /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				121B1AEC2295B87700E95713 /* ApiClient.h */,
+				121B1AED2295B87700E95713 /* ApiClient.m */,
+				121B1AF22295B9A200E95713 /* NexmoUser.h */,
+				121B1AF32295B9A200E95713 /* NexmoUser.m */,
+			);
+			path = APIs;
+			sourceTree = "<group>";
+		};
 		12638026228335ED008DAD7D = {
 			isa = PBXGroup;
 			children = (
@@ -74,15 +95,19 @@
 		12638031228335ED008DAD7D /* ContactCenter */ = {
 			isa = PBXGroup;
 			children = (
-				12638032228335ED008DAD7D /* AppDelegate.h */,
-				12638033228335ED008DAD7D /* AppDelegate.m */,
-				12638035228335ED008DAD7D /* ViewController.h */,
-				12638036228335ED008DAD7D /* ViewController.m */,
-				12638038228335ED008DAD7D /* Main.storyboard */,
+				12638041228335EE008DAD7D /* main.m */,
+				1263804822833ADF008DAD7D /* Constants.h */,
+				12638040228335EE008DAD7D /* Info.plist */,
 				1263803B228335EE008DAD7D /* Assets.xcassets */,
 				1263803D228335EE008DAD7D /* LaunchScreen.storyboard */,
-				12638040228335EE008DAD7D /* Info.plist */,
-				12638041228335EE008DAD7D /* main.m */,
+				12638032228335ED008DAD7D /* AppDelegate.h */,
+				12638033228335ED008DAD7D /* AppDelegate.m */,
+				12638038228335ED008DAD7D /* Main.storyboard */,
+				121B1AE62295A9D600E95713 /* UserSelectionViewController.h */,
+				121B1AE72295A9D600E95713 /* UserSelectionViewController.m */,
+				121B1AEF2295B8C000E95713 /* MainViewController.h */,
+				121B1AF02295B8C000E95713 /* MainViewController.m */,
+				121B1AE92295B83600E95713 /* APIs */,
 			);
 			path = ContactCenter;
 			sourceTree = "<group>";
@@ -214,9 +239,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12638037228335ED008DAD7D /* ViewController.m in Sources */,
+				121B1AE82295A9D600E95713 /* UserSelectionViewController.m in Sources */,
 				12638042228335EE008DAD7D /* main.m in Sources */,
 				12638034228335ED008DAD7D /* AppDelegate.m in Sources */,
+				121B1AF12295B8C000E95713 /* MainViewController.m in Sources */,
+				121B1AF42295B9A200E95713 /* NexmoUser.m in Sources */,
+				121B1AEE2295B87700E95713 /* ApiClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
